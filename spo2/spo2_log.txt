@@ -1,0 +1,2 @@
+Refresh Token Response: {'errors': [{'errorType': 'invalid_grant', 'message': 'Refresh token invalid: 2b746edc29392ea744176fdcf856ce90ae7bde5df0bf7ed686406d13d4fbfb6a. Visit https://dev.fitbit.com/docs/oauth2 for more information on the Fitbit Web API authorization process.'}], 'success': False}
+Error: No access token or refresh token found in the response.

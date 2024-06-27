@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "refresh_token.py", line 60, in <module>
-    tokens = refresh_access_token()
-  File "refresh_token.py", line 43, in refresh_access_token
-    response.raise_for_status()
-  File "C:\Users\91813\AppData\Local\Programs\Python\Python38\lib\site-packages\requests-2.31.0-py3.8.egg\requests\models.py", line 1021, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.fitbit.com/oauth2/token

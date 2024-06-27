@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "refresh_token.py", line 45, in <module>
-    refresh_access_token(tokens['refresh_token'])
-  File "refresh_token.py", line 36, in refresh_access_token
-    response.raise_for_status()
-  File "C:\Users\91813\AppData\Local\Programs\Python\Python38\lib\site-packages\requests-2.31.0-py3.8.egg\requests\models.py", line 1021, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.fitbit.com/oauth2/token
